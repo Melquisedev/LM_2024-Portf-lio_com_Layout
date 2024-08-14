@@ -25,6 +25,10 @@ header {
   background-position: center;
   height: 100vh;
   min-height: 400px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
 }
 
 header .intro-text p, header .intro-text h1 {
@@ -60,6 +64,8 @@ header .intro-text .btn-intro {
 /* Main */
 main {
   color: #333;
+  display:grid;
+  
 }
 
 main .service .circle-icon {
@@ -99,3 +105,4 @@ footer section.copyright {
 footer section.copyright i.fa-heart {
   color: #f00;
 }
+
